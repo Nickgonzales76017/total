@@ -1,0 +1,606 @@
+
+html,body
+{
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.one{
+  background-color: white;
+  width: 100vw;
+  height: 10vw;
+  position: relative;
+}
+.one img{
+  width: 30vw;
+  position: absolute;
+  left: 30vw;
+}
+/*div 2*/
+.two{
+  background-color: rgb(202, 3, 3);
+  display: flex;
+}
+
+/* Nav bar*/
+nav{
+  width: 48vw;
+  height: 2.5439238653001466vw;
+}
+.ul1{
+  margin: 0;
+  padding: 0 0 0 0;
+  height: 2.5439238653001466vw;
+    /*this option by default dispose the elements in a row (flex-direction: row)*/
+  display: flex;
+  background-color: rgb(31, 30, 30);
+  z-index: 1;
+}
+.li1{
+  list-style-type: none;
+  margin: auto 0vw;
+  /* our font-size will be 3% of the height of the viewport */
+  font-size: 1.7807467057101025vw;
+}
+
+a{
+  text-decoration: none;
+    /*below I changed the color*/
+  color: rgb(255, 255, 255);
+  /*I added some padding*/
+  padding: 1.5vw;
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: monospace;
+  background-color: rgb(31, 30, 30);
+}
+/*hovering over nav*/
+a:hover{
+  background-color: rgb(129, 129, 129);
+}
+a1{
+  text-decoration: none;
+    /*below I changed the color*/
+  color: rgb(255, 255, 255);
+  /*I added some padding*/
+  padding: 1.5vw;
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: monospace;
+  background-color: rgb(129, 129, 129);
+}
+
+
+
+/*div 3*/
+.three{
+  width: 100vw;
+  display:flex;
+  position: relative;
+  height: 32.307833089311856vw;
+}
+.threeL{
+  float: left;
+  width: 49vw;
+  background-color: rgb(202, 3, 3);
+  border: 0.21961932650073207vw solid rgb(202, 3, 3);
+  border-radius: 0.07320644216691069vw;
+  /*background-image: linear-gradient(0deg, rgb(49, 9, 9), rgb(197, 0, 0));*/
+  margin: 0;
+  padding: 0;
+  height: 32.05344070278184vw;
+  
+}
+.threeR{
+  float: right;
+  width: 52vw;
+    margin: 0;
+  padding: 0;
+  position: relative;
+  height: 32.307833089311856vw;
+}
+.threeR img{
+  position: relative;
+  float: right;
+  width: 52vw; 
+  margin: 0;
+  padding: 0;
+  height: 32.307833089311856vw;
+}
+/*div 4*/
+.four{
+  position: relative;
+  width: 100vw;
+  display:block;
+  
+  max-width:100%;  /* added */
+  border: 0.21961932650073207vw solid white;
+  border-radius: 0.8784773060029283vw;
+}
+.four h3{
+  padding: 2vw 1vw;
+  width: 100vw;
+  text-align: center;
+}
+.four p{
+  width: 100vw;
+  text-align: center;
+  max-width:100%;  /* added */
+}
+
+/*div 5*/
+.five{
+  width: 100vw;
+  display:flex;
+  color: white;
+  font-size: 1.8301610541727673vw;
+  font-family: 'Alata', sans-serif;
+}
+.five1{
+  width: 33vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+     rgba(46, 46, 46, 0.45), 
+      rgba(46, 46, 46, 0.45)
+    ),
+    /* bottom, image */
+    url(pics/5/Pic_4_1.jpg);
+    background-size: 30vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+}
+.five1:hover{
+  background: 
+    /* bottom, image */
+    url(pics/5/Pic_4_1.jpg);
+    background-size: 30vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+}
+.five1 h3{
+  text-align: center
+}
+.five2{
+  width: 33vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(46, 46, 46, 0.45), 
+      rgba(46, 46, 46, 0.45)
+    ),
+    /* bottom, image */
+    url(pics/5/Pic_4_2.jpg);
+    background-size: 33vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw;  
+}
+.five2:hover{
+  background: 
+    /* bottom, image */
+    url(pics/5/Pic_4_2.jpg);
+    background-size: 33vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+}
+.five2 h3{
+  text-align: center
+}
+.five3{
+
+  width: 33vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+  rgba(46, 46, 46, 0.45), 
+      rgba(46, 46, 46, 0.45)
+    ),
+    /* bottom, image */
+    url(pics/5/Pic_4_3.jpg);
+    background-size: 30vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+}
+.five3:hover{
+  background: 
+    /* bottom, image */
+    url(pics/5/Pic_4_3.jpg);
+    background-size: 30vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+}
+.five3 h3{
+  text-align: center
+}
+
+
+/*div 6*/
+.six{
+  width: 100vw;
+  display:block;
+  /*background-color: rgb(0, 0, 0);*/
+  background: -webkit-linear-gradient(-25deg,#59695e, #9aa2aa);
+  background:    -moz-linear-gradient(-25deg,#648880, #293f50);
+  background:         linear-gradient(-25deg,#648880, #293f50);
+  position: relative;
+  padding: 5.087847730600293vw 0;
+  
+}
+.six1{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 0.21961932650073207vw solid white;
+  border-radius: 0.29282576866764276vw;
+  color: black;
+  position:relative;
+  
+  width: 80vw;
+  margin: auto;
+ z-index: 10;
+}
+.six1s1{
+  width: 33vw;
+  position: relative;
+  z-index: 11;
+  padding: 2.035139092240117vw 5vw;
+  display: block;
+}
+.six1s2{
+  width: 33vw;
+  position: relative;
+  z-index: 11;
+  padding: 2.035139092240117vw 5vw;
+  display: block;
+}
+.six1s3{
+  width: 33vw;
+  position: relative;
+  z-index: 11;
+  padding: 2.035139092240117vw 5vw;
+  display: block;
+}
+/*service page*/
+.threeServ{
+  width: 100vw;
+  background-color: rgb(37, 37, 37);
+  z-index: 100;
+  position: relative;
+  display: flex;
+}
+.threeServ1{
+  background-color: rgb(192, 39, 39);
+  width: 0vw;
+}
+.threeServ2{
+  /*background-color: rgb(37, 37, 37);*/
+  width: 100vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.521), 
+      rgba(0, 0, 0, 0.418)
+    ),
+    /* bottom, image */
+    url(pics/Sect3P1.jpg);
+    height: 50.87847730600293vw;
+    background-size: 100vw 50.87847730600293vw;
+    background-repeat: no-repeat;
+}
+.hello{
+  margin: 5.087847730600293vw auto 17.807467057101025vw auto;
+  padding: 2.035139092240117vw 4vw 2.035139092240117vw 0;
+  color: white;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.644);
+  width: 50vw;
+  border: 0.29282576866764276vw solid rgb(153, 145, 145);
+  border-radius: 0.29282576866764276vw;
+}
+a{
+  cursor: pointer;
+}
+
+a .button {
+  margin: 0;
+  width: 16vw;
+  background-color: rgb(202, 3, 3);
+  border: 0.21961932650073207vw solid rgb(255, 255, 255);
+  border-radius: 0.29282576866764276vw;
+  padding: 0.6359809663250366vw 0;
+  color: white;
+  font-size: 1.4641288433382138vw;
+  cursor: pointer;
+
+}
+.button:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.buttonzr{
+  margin: auto;
+  width: 20vw;
+  background-color: rgb(202, 3, 3);
+  border: 0.21961932650073207vw solid rgb(255, 255, 255);
+  border-radius:  0.29282576866764276vw;
+  padding: 0.6359809663250366vw 0;
+  color: white;
+  font-size: 1.4641288433382138vw;
+  cursor: pointer;
+   z-index: 1;
+    position: relative;
+}
+.buttonzr:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+ .buttonH{
+  margin: auto;
+  width: 20vw;
+  background-color: rgb(252, 252, 252);
+  border: .3vw solid rgb(0, 0, 0);
+  border-radius: 0.29282576866764276vw;
+  padding: 1.2719619326500733vw 0;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+ .buttonH:hover {
+  background-color: rgb(161, 161, 161); /* Add a dark-grey background on hover */
+}
+.button1{
+  width:30vw;
+  display: flex;
+  align-items: center;
+}
+.button2{
+  width:50vw;
+  display: flex;
+  align-items: center;
+  margin: 3.052708638360176vw 15vw 5.087847730600293vw 0vw;
+}
+.button3{
+  width:100vw;
+  display: flex;
+  align-items: center;
+  margin: 5.087847730600293vw auto;
+}
+.threeServ3{
+  background-color: rgb(238, 36, 36);
+  width: 0vw;
+}
+
+.bar{
+  background-color: white;
+  width: 100vw;
+  padding: 0 0;
+  margin: 0;
+  text-align: center;
+  border: 0.21961932650073207vw solid black;
+  font-size: 1.4641288433382138vw;
+}
+.text4{
+  width: 70vw;
+  margin: 0 auto 4.070278184480234vw auto;
+  align-items: center;
+  text-align: center;
+}
+.fiveServ{
+  width: 100vw;
+  display: flex;
+  position: relative;
+  height: 30.527086383601755vw;
+  border: 0.21961932650073207vw solid black;
+  /*background: linear-gradient(45deg, rgb(212, 174, 174), rgb(41, 41, 41)) ;*/
+}
+.fiveServ1{
+   width: 40vw;
+   position: relative;
+   display: block;
+}
+.img1{
+  width: 20vw;
+  height: 15.263543191800878vw;
+  position: relative;
+}
+.img2{
+  width: 20vw;
+  height: 15.263543191800878vw;
+  position: relative;
+}
+.img3{
+  width: 20vw;
+  height: 15.263543191800878vw;
+  position: relative;
+}
+.img4{
+  width: 20vw;
+  height: 15.263543191800878vw;
+  position: relative;
+}
+.fiveServ2{
+   width: 60vw;
+   height: 100%;
+   background-color: rgb(202, 3, 3);
+   position: relative;
+   display: block;
+   color: rgb(226, 221, 221);
+   border-left: 0.21961932650073207vw solid black;
+}
+.fiveServ2S1{
+  display: flex; 
+  margin: 0 1vw;
+  padding: 0;
+  font-size: 1.55vw;
+  font-weight: 900;
+}
+.fiveServ2L ul{
+  list-style-type: square;
+  padding-right: 2vw;
+
+}
+.fiveServ2R ul{
+  list-style-type: square;
+  
+}
+.sixServ{
+  position: relative;
+  display:flex;
+  
+  margin-top: 2vw;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.sixServ1{
+  width: 20vw;
+  padding: 2vw 0;
+  font-size: 1.2vw;
+
+}
+.sixServ2{
+  width: 80vw;
+  font-size: 1.5vw;
+  position: relative;
+}
+.sevenServ{
+  width: 100vw;
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+  color: white;
+}
+.sevenServ h3{
+  padding-top: 2.5439238653001466vw;
+  font-size: 2vw;
+}
+.sevenServ1{
+  display: inline;
+}
+.sevenServ1Head{
+  display: flex;
+  margin-bottom: 2.5439238653001466vw;
+  margin-top: 2.5439238653001466vw;
+  margin-left: 3vw;
+  margin-right: 2vw;
+}
+.hr1{
+  float:right; 
+  margin-left:24vw; 
+  width:21vw;
+  height: 0px;
+  border-bottom: 2px solid white;
+}
+.hr2{
+  float:left; 
+  margin-right:24vw; 
+  width:21vw;
+  height: 0px;
+  border-bottom: 2px solid white;
+}
+.FormServ{
+  margin: 0 23vw;
+}
+.input1{
+  margin-right: 2vw;
+  margin-bottom: 1.526354319180088vw;
+  width: 26vw;
+  height: 2.035139092240117vw;
+  text-align: center;
+  border-radius: 0.29282576866764276vw;
+  border: 0.07320644216691069vw solid #ccc;
+}
+.input2{
+  width: 26vw;
+  margin-bottom: 1.526354319180088vw;
+  height: 2.035139092240117vw;
+  text-align: center;
+  border-radius: 0.29282576866764276vw;
+  border: 0.07320644216691069vw solid #ccc;
+}
+.input3{
+  width: 54vw;
+  height: 5.087847730600293vw;
+  text-align: center;
+  border-radius: 0.29282576866764276vw;
+  border: 0.07320644216691069vw solid #ccc;
+}
+.submit{
+  border: 0.14641288433382138vw solid rgb(202, 3, 3);
+  border-radius: 0.29282576866764276vw;
+  width: 20vw;
+  margin-bottom: 4.070278184480234vw;
+  padding: 0vh 0vw;
+  font-weight: 900;
+  font-size: 1.7807467057101025vw;
+  background-color: rgb(202, 3, 3);
+}
+ .submit:hover {
+  background-color: rgb(161, 161, 161); /* Add a dark-grey background on hover */
+  border: 0.14641288433382138vw solid rgb(161, 161, 161);
+  cursor: pointer;
+ }
+#fab_fa-facebook-f{
+  position:relative;
+  color:white;
+  font-size:2vw; 
+  margin:0; 
+  border-radius:.5vw;
+  border:1vw solid #3b5998; 
+  background-color:#3b5998; 
+  padding:.3vw 0vw .3vw .7vw;
+}
+#fab_fa-facebook-f:hover{
+  border:1vw solid #3b58985b; 
+  background-color:#3b589852; 
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: absolute; /* Fixed/sticky position */
+  bottom: 2.9282576866764276vw; /* Place the button at the bottom of the page */
+  right: 5.856515373352855vw; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 0.14641288433382138vw solid rgb(255, 255, 255); /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(126, 126, 126); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-top: .5vw;
+
+  font-size: 3vw; /* Increase font size */
+  height: 3.9282576866764276vw;
+  width: 3.9282576866764276vw;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.fab {
+  font-size: 3vw; /* Increase font size */
+  text-align: center;
+  text-decoration: none;
+  padding-top: .9vw;
+}
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+  position: absolute;
+  bottom: 2.9282576866764276vw; /* Place the button at the bottom of the page */
+  left: 5.856515373352855vw; /* Place the button 30px from the right */
+  height: 1.5282576866764276vw;
+  width: 1.0282576866764276vw;
+  border-radius: 10px;
+  border: 0.14641288433382138vw solid rgb(255, 255, 255); /* Remove borders */
+  outline: none; /* Remove outl
+  cursor: pointer; /* Add a mouse pointer on hover */
+  
+   
+}
+@media screen and (min-width: 824px) {
+    #mobile {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 824px) {
+    #computer {
+        display: none !important;
+    }
+}

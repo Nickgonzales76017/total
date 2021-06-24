@@ -1,0 +1,749 @@
+
+html,body
+{
+    width: 100vw;
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+h1 {
+    padding:0;
+    margin:0;
+   }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  background-color: #111;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  top: 0;
+  right: 2px;
+  font-size: 36px;
+  
+}
+
+#main {
+  transition: margin-left .5s;
+  margin: 0;
+  padding: 0
+}
+.one{
+  background-color: white;
+  width: 100vw;
+  height: 15vw;
+  position: relative;
+}
+.one img{
+  width: 45vw;
+  position: absolute;
+  left: 30vw;
+}
+/*div 2*/
+.two{
+  background-color: rgb(202, 3, 3);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Nav bar*/
+nav{
+  width: 14vw;
+  
+}
+.ul1{
+  margin: 0;
+  padding: 0 0 0 0;
+  height: 2.5439238653001466vw;
+    /*this option by default dispose the elements in a row (flex-direction: row)*/
+  display: flex;
+  background-color: rgb(31, 30, 30);
+  z-index: 1;
+}
+.li1{
+  list-style-type: none;
+  margin: auto 0vw;
+  /* our font-size will be 3% of the height of the viewport */
+  font-size: 1.7807467057101025vw;
+}
+.CDSR{
+  width:45vw;
+  font-size:2.4641288433382138vw;
+  padding-left: 0vw;
+}
+.spanH{
+  cursor:pointer;
+  position:relative;
+  background-color: rgb(31, 30, 30);
+  color:white;
+  font-size: 8vw;
+  padding:0vw 4vw;
+  overflow: hidden;
+}
+.spanH:hover{
+  background-color: rgb(54, 53, 53);
+}
+.spanH1{
+  cursor:pointer;
+  position:relative;
+  background-color: #3b5998;
+  color:white;
+  font-size: 8vw;
+  padding:0vw 7vw;
+  overflow: hidden;
+}
+a .spanH1:hover{
+  background-color: #324774;
+}
+.spanH1 i{
+    padding-right: 10vw;
+    padding-top: 3vw;
+}
+.spanH1 i:hover{
+  background-color: #324774;
+}
+
+a{
+  text-decoration: none;
+    /*below I changed the color*/
+  color: rgb(255, 255, 255);
+  /*I added some padding*/
+  padding: 1.5vw;
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: monospace;
+  background-color: rgb(31, 30, 30);
+}
+/*hovering over nav*/
+a:hover{
+  background-color: rgb(129, 129, 129);
+}
+
+
+
+/*div 3*/
+.three{
+  width: 100vw;
+  position: relative;
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+     rgba(46, 46, 46, 0.45), 
+      rgba(46, 46, 46, 0.45)
+    ),
+    /* bottom, image */
+    url(pics/Pic_3.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  float:left;
+clear:none; 
+  
+
+}
+.threeL{ 
+  width: 100vw;
+  
+  border-radius: 0.07320644216691069vw;
+  /*background-image: linear-gradient(0deg, rgb(49, 9, 9), rgb(197, 0, 0));*/
+  margin: 0;
+  padding: 0;
+  height: 52.05344070278184vw;
+  position: relative;
+  float:left;
+ clear:none; 
+  
+}
+
+
+/*div 4*/
+.four{
+  position: relative;
+  width: 100vw;
+  clear: left;
+  padding: 4vw 0;
+  
+}
+.four h3{
+  width: 100vw;
+  text-align: center;
+  line-height: 90%;
+  font-size:3.1961932650073206vw;
+  
+}
+.four p{
+  width: 100vw;
+  text-align: center;
+  max-width:100%;  /* added */
+}
+
+/*div 5*/
+.five{
+  width: 100vw;
+  position: relative;
+  
+  color: white;
+  font-size: 3.8301610541727673vw;
+  font-family: 'Alata', sans-serif;
+}
+.five1{
+  width: 100vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+     rgba(46, 46, 46, 0.45), 
+      rgba(46, 46, 46, 0.45)
+    ),
+    /* bottom, image */
+    url(pics/5/Pic_4_1.jpg);
+    background-size: 100vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+    -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+  transition: height 2s;
+}
+.five1:hover{
+  background: 
+    /* bottom, image */
+    url(pics/5/Pic_4_1.jpg);
+    background-size: 100vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+  height: 50vw;
+}
+.five1 h3{
+  text-align: center
+}
+.five2{
+  width: 100vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(46, 46, 46, 0.45), 
+      rgba(46, 46, 46, 0.45)
+    ),
+    /* bottom, image */
+    url(pics/5/Pic_4_2.jpg);
+    background-size: 100vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw;  
+    -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+  transition: height 2s;
+}
+.five2:hover{
+  background: 
+    /* bottom, image */
+    url(pics/5/Pic_4_2.jpg);
+    background-size: 100vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+    height: 50vw;
+}
+.five2 h3{
+  text-align: center
+}
+.five3{
+
+  width: 100vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+  rgba(46, 46, 46, 0.45), 
+      rgba(46, 46, 46, 0.45)
+    ),
+    /* bottom, image */
+    url(pics/5/Pic_4_3.jpg);
+    background-size: 100vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+    -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+  transition: height 2s;
+}
+.five3:hover{
+  background: 
+    /* bottom, image */
+    url(pics/5/Pic_4_3.jpg);
+    background-size: 100vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw; 
+    height: 50vw;
+    
+}
+.five3 h3{
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+
+/*div 6*/
+.six{
+  width: 100vw;
+  display:block;
+  /*background-color: rgb(0, 0, 0);*/
+  background: -webkit-linear-gradient(-25deg,#59695e, #9aa2aa);
+  background:    -moz-linear-gradient(-25deg,#648880, #293f50);
+  background:         linear-gradient(-25deg,#648880, #293f50);
+  position: relative;
+  padding: 10.087847730600293vw 0;
+  
+}
+.six1{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 0.21961932650073207vw solid white;
+  border-radius: 0.29282576866764276vw;
+  color: black;
+  position:relative;
+  padding-top: 5vw;
+  width: 100vw;
+  margin: auto;
+  z-index: 10;
+  margin-bottom: 8vw;
+}
+.six1s1{
+  width: 33vw;
+  position: relative;
+  z-index: 11;
+  padding: .035139092240117vw 5vw;
+  display: block;
+}
+.six1s2{
+  width: 33vw;
+  position: relative;
+  z-index: 11;
+  padding: .035139092240117vw 5vw;
+  display: block;
+}
+.six1s3{
+  width: 33vw;
+  position: relative;
+  z-index: 11;
+  padding: .035139092240117vw 5vw;
+  display: block;
+}
+/*service page*/
+.threeServ{
+  width: 100vw;
+  background-color: rgb(37, 37, 37);
+  z-index: 100;
+  position: relative;
+  display: flex;
+}
+.threeServ1{
+  background-color: rgb(192, 39, 39);
+  width: 0vw;
+}
+.threeServ2{
+  /*background-color: rgb(37, 37, 37);*/
+  width: 100vw;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.521), 
+      rgba(0, 0, 0, 0.418)
+    ),
+    /* bottom, image */
+    url(pics/Sect3P1.jpg);
+    height: 80.87847730600293vw;
+    background-size: 100vw 80.87847730600293vw;
+    background-repeat: no-repeat;
+}
+.hello{
+  margin: 5.087847730600293vw auto 17.807467057101025vw auto;
+  padding: 2.035139092240117vw 4vw 2.035139092240117vw 0;
+  color: white;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.644);
+  width: 80vw;
+  
+  border: 0.29282576866764276vw solid rgb(153, 145, 145);
+  border-radius: 0.29282576866764276vw;
+}
+a{
+  cursor: pointer;
+}
+
+a .button {
+  margin: 0;
+  width: 16vw;
+  background-color: rgb(202, 3, 3);
+  border: 0.21961932650073207vw solid rgb(255, 255, 255);
+  border-radius: 0.29282576866764276vw;
+  padding: 0.6359809663250366vw 0;
+  color: white;
+  font-size: 2.4641288433382138vw;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
+
+}
+
+.button:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.buttonzr{
+  margin: auto;
+  width: 25vw;
+  height: 4vw;
+  background-color: rgb(202, 3, 3);
+  border: 0.21961932650073207vw solid rgb(255, 255, 255);
+  border-radius:  0.29282576866764276vw;
+  padding: 1.6359809663250366vw 0;
+  color: white;
+  font-size: 3.4641288433382138vw;
+  cursor: pointer;
+   z-index: 1;
+    position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
+}
+.buttonzr:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+ .buttonH{
+  margin: auto;
+  width: 20vw;
+  background-color: rgb(252, 252, 252);
+  border: .3vw solid rgb(0, 0, 0);
+  border-radius: 0.29282576866764276vw;
+  padding: 2.2719619326500733vw 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
+}
+ .buttonH:hover {
+  background-color: rgb(161, 161, 161); /* Add a dark-grey background on hover */
+}
+.button1{
+  width:13vw;
+  display: flex;
+  align-items: center;
+  
+}
+.hrS1{
+  float: left;
+  color: red;
+  border-left: 0.14641288433382138vw solid red;
+  margin: 1.6281112737920937vw 1vw 1.175695461200585vw 1vw; height: 40.5vw;
+}
+@media only screen and (max-width: 400px) {
+ .hrS1{
+    height: 53.5vw;
+  }
+  .CDSL2{
+    padding-left: 12vw;
+  }
+  .CDSR2{
+    padding-left: 12vw;
+  }
+  .spanH{
+    padding:1.5vw 6vw;
+    padding-left: 3vw;
+  }
+  .spanH1{
+    padding-left:0vw;
+    width: 7vw;
+    text-align: center;
+  }
+.spanH1 i{
+    padding-left:5vw;
+    
+  }
+
+  a .button {
+    width: 20vw;
+    padding: 1.6359809663250366vw 0;
+  }
+  .button1{
+    margin-right: 3vw;
+  }
+
+}
+@media only screen and (min-width: 400px) {
+  .CDSL2{
+    padding-left: 12vw;
+  }
+  .CDSR2{
+    padding-left: 12vw;
+  }
+  .spanH{
+    padding:1.5vw 4vw;
+  }
+  a .button {
+    width: 20vw;
+    padding: 1.6359809663250366vw 0;
+  }
+  .button1{
+    margin-right: 3vw;
+  }
+  .spanH1 i{
+    padding-right: 0vw;    
+  }
+}
+.button2{
+  width:50vw;
+  display: flex;
+  align-items: center;
+  margin: 3.052708638360176vw auto;
+}
+.button3{
+  width:100vw;
+  display: flex;
+  align-items: center;
+  margin: 5.087847730600293vw auto;
+}
+.span{
+  border-bottom:0.36603221083455345vw solid black;
+  padding-bottom:.5vw;
+}
+.threeServ3{
+  background-color: rgb(238, 36, 36);
+  width: 0vw;
+}
+
+.bar{
+  background-color: white;
+  width: 100vw;
+  padding: auto;
+  margin: 0;
+  text-align: center;
+  border: 0.21961932650073207vw solid black;
+  font-size: 3.4641288433382138vw;
+}
+.text4{
+  width: 85vw;
+  margin: 0 auto 4.070278184480234vw auto;
+  align-items: center;
+  text-align: center;
+}
+.fiveServ{
+  width: 100vw;
+  position: relative;
+  margin: 3vw 0 0 0;
+  padding: 0;
+  
+}
+
+.fiveServ2{
+   width: 100vw;
+   background-color: rgb(202, 3, 3);
+   position: relative;
+   color: rgb(226, 221, 221);
+   margin: 0;
+   border-top: 3px solid black;
+  border-bottom: 3px solid black;
+   
+}
+.fiveServ2S1{
+  display: flex; 
+  margin: 0 0vw;
+  padding: 0;
+  font-size: 3.55vw;
+  font-weight: 900;
+}
+.fiveServ2L ul{
+  list-style-type: square;
+  padding-right: 2vw;
+
+}
+.fiveServ2R ul{
+  list-style-type: square;
+  
+}
+.sixServ{
+  position: relative;
+  display:flex;
+  margin: 3vw 0;
+  background-color: yellow;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+
+}
+.sixServ1{
+  width: 20vw;
+  padding: 2vw 0;
+  font-size: 2.2vw;
+  position: relative;
+
+}
+.sixServ2{
+  width: 80vw;
+  font-size: 2.5vw;
+  position: relative;
+  padding-left: 9vw;
+ 
+}
+.sevenServ{
+  width: 100vw;
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.sevenServ h3{
+  padding-top: 2.5439238653001466vw;
+  font-size: 2vw;
+}
+.sevenServ1{
+  display: inline;
+}
+.sevenServ1Head{
+  display: flex;
+  margin-bottom: 2.5439238653001466vw;
+  margin-top: 2.5439238653001466vw;
+  margin-left: 3vw;
+  margin-right: 2vw;
+}
+.hr1{
+  float:right; 
+  margin-left:20vw; 
+  width:21vw;
+  height: 0px;
+  border-bottom: 2px solid white;
+}
+.hr2{
+  float:left; 
+  margin-right:20vw; 
+  width:21vw;
+  height: 0px;
+  border-bottom: 2px solid white;
+}
+.FormServ{
+  margin: 0 23vw;
+  padding-bottom: 5vw;
+}
+.input1{
+  margin-right: 2vw;
+  margin-bottom: 1.526354319180088vw;
+  width: 56vw;
+  height: 6.035139092240117vw;
+  text-align: center;
+  border-radius: 0.29282576866764276vw;
+  border: 0.07320644216691069vw solid #ccc;
+}
+.input2{
+  width: 56vw;
+  margin-bottom: 1.526354319180088vw;
+  height: 6.035139092240117vw;
+  text-align: center;
+  border-radius: 0.29282576866764276vw;
+  border: 0.07320644216691069vw solid #ccc;
+}
+.input3{
+  width: 56vw;
+  height: 15.087847730600293vw;
+  text-align: center;
+  border-radius: 0.29282576866764276vw;
+  border: 0.07320644216691069vw solid #ccc;
+}
+.submit{
+  border: 0.14641288433382138vw solid rgb(202, 3, 3);
+  border-radius: 0.19282576866764276vw;
+  width: 40vw;
+  height: 6vw;
+  margin-bottom: 4.070278184480234vw;
+  margin: 2vw 0vw 0 0;
+  font-weight: 900;
+  font-size: 3.7807467057101025vw;
+  background-color: rgb(202, 3, 3);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
+}
+img.flag{
+  width: 8vw;
+  max-width:100%;
+  height: 5vw; 
+}
+ .submit:hover {
+  background-color: rgb(161, 161, 161); /* Add a dark-grey background on hover */
+  border: 0.14641288433382138vw solid rgb(161, 161, 161);
+  cursor: pointer;
+ }
+#fab_fa-facebook-f{
+  position:relative;
+  color:white;
+  font-size:2vw; 
+  margin:0; 
+  border-radius:.5vw;
+  border:1vw solid #3b5998; 
+  background-color:#3b5998; 
+  padding:.3vw 0vw .3vw .7vw;
+}
+#fab_fa-facebook-f:hover{
+  border:1vw solid #3b58985b; 
+  background-color:#3b589852; 
+}
+
+#myBtn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  overflow: hidden;
+  opacity: 1;
+  margin: 0;
+  position: absolute; /* Fixed/sticky position */
+  bottom: 2.9282576866764276vw; /* Place the button at the bottom of the page */
+  right: 5.856515373352855vw; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 0.14641288433382138vw solid rgb(255, 255, 255); /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(126, 126, 126); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-top: .8vw;
+  box-sizing:border-box;
+  padding: 0px;
+  font-size: 6vw; /* Increase font size */
+  height: 8.9282576866764276vw;
+  width: 8.9282576866764276vw;
+  border-radius: 4.451vw;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+@media screen and (min-width: 824px) {
+    #mobile {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 824px) {
+    #computer {
+        display: none !important;
+    }
+}
